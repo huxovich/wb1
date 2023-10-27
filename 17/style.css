@@ -1,0 +1,21 @@
+.input__wrapper {
+  position: relative;
+  width: 500px;
+}
+.input {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid black;
+}
+
+.options__wrapper {
+  position: absolute;
+  display: none;
+  top: 100%;
+  width: 100%;
+}
+
+.item {
+  padding: 10px;
+  border: 1px solid black;
+}

@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>JSON Table</title>
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <table id="data-table">
+        <thead>
+            <tr>
+                <th onclick="sortTable(0)">name</th>
+                <th onclick="sortTable(1)">surname</th>
+                <th onclick="sortTable(2)">tel</th>
+                <th onclick="sortTable(3)">adress</th>
+                <th onclick="sortTable(4)">city</th>
+                <th onclick="sortTable(5)">state</th>
+                <th onclick="sortTable(6)">index</th>
+            </tr>
+        </thead>
+        <tbody id="table-body"></tbody>
+    </table>
+
+    <div id="pagination"></div>
+
+    <script src="./script.js"></script>
+  </body>
+</html>
